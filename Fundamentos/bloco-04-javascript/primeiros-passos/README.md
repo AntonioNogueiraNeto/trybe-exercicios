@@ -141,3 +141,6 @@ Vale lembrar que o conceito de truthy e falsy também se aplica aqui, por isso n
 Strings...Valores nulos, Numericos e indefinidos
 <hr>
 <h2>Switch e Case</h2>
+
+outra forma de utilizar condicoes
+
