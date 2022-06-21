@@ -1,4 +1,4 @@
-###historia do javascript
+<h1> historia do javascript </h1>
 
 
 
@@ -17,4 +17,6 @@ Netscape pede padronizacao da linguagem entao em 1997 a ECMA-262 ECMAScprit, cri
 
 <hr>
 
-##JavaScript váriaveis
+<h2>JavaScript váriaveis</h2>
+
+Agora vamos aprender como funcionam e o que são variáveis e constantes.
