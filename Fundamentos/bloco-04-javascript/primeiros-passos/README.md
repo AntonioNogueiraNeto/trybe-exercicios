@@ -19,4 +19,12 @@ Netscape pede padronizacao da linguagem entao em 1997 a ECMA-262 ECMAScprit, cri
 
 <h2>JavaScript váriaveis</h2>
 
-Agora vamos aprender como funcionam e o que são variáveis e constantes.
+vamos aprender como funcionam e o que são variáveis e constantes.
+
+let - variaveis que podem receber alguma alteracao
+
+const - constantes (não podem receber alteracoes
+
+<hr>
+
+
