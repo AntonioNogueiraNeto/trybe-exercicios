@@ -28,49 +28,61 @@
 <p>
   A manipulação de Arrays estará presente em toda sua carreira como pessoa
   desenvolvedora. Você irá usar arrays frequentemente para armazenar os dados
-  que achar necessário. <br>
+  que achar necessário. <br />
   Concentre-se em entender ao máximo o conceito de Array e como manipulá-los,
   pois essa base será importante para avançar seu conhecimento.
 </p>
 
-
-<hr>
+<hr />
 
 <h2>Arrays</h2>
 
-<p>se eu quiser fazer um monte de declarações de variaveis em uma unica estrutura, atravez de variaveis compostas
-    <br>
-    
+<p>
+  Uso quando quero guardar um conjunto de informações que eu quero manter em um
+  "link"
 </p>
 
 <p>
-arrays sao demontrados -> let variavel = ["valor", "outro valor"] <br>
-para saber o tamanho do array -> variavel.lenght <br>
-para adicionar ao final do array um valor -> variavel.push()<br>
-para adicionar ao inicio do array um valor -> variavel.unshift()<br>
-para remover do final usamos -> variavel.pop()<br>
-para remover do inicio usamos -> vairavel.shift()<br>
-para descobrir o index de um valor -> let indexOfvariavel = variavel.indexOf('valor')
-
+  para cada elemento dentro de um array eu tenho um index.
+  <br />
+  o primeiro elemento tera o index [0]
+  <br />
 </p>
 
-<hr>
+<p>
+  arrays sao demontrados -> let variavel = ["valor", "outro valor"] <br />
+  para saber o tamanho do array -> variavel.lenght <br />
+  para adicionar ao final do array um valor -> variavel.push()<br />
+  para adicionar ao inicio do array um valor -> variavel.unshift()<br />
+  para remover do final usamos -> variavel.pop()<br />
+  para remover do inicio usamos -> vairavel.shift()<br />
+  para descobrir o index de um valor -> let indexOfvariavel =
+  variavel.indexOf('valor')
+</p>
+
+<hr />
 
 <h2>Loop For</h2>
 
-<p>
-  loop for são laços de repetição que executam um bloco de notas inúmeras vezes. <br>
+<img src="img/Captura de tela de 2022-06-22 16-29-17.png" alt="diferenca entre loop e condicao">
 
-  como escrever uma estrutura de repetição; <br>
+<p>
+  loop for são laços de repetição que executam um bloco de notas inúmeras vezes.
+  <br />
+
+  como escrever uma estrutura de repetição; <br />
   let array = ["valor", "outro valor", "mais um valor"] --- criacao de um array
   for (let index = 0; index < array.lenght; index += 1){
-    console.log(array[index])
-  } <br>
+  console.log(array[index]) } <br />
 
-  utilizamos o +=1 sempre <br>
-
+  utilizamos o +=1 sempre <br />
 </p>
 
 <h3>for/of</h3>
 
-<p>Com a chegada do ES6, ganhamos uma nova funcionalidade para iterar arrays e objetos. Objetos iteráveis são objetos ou uma estrutura de dados que permite acessar o seu conteúdo com um for. O for/of nos permite criar loops em objetos iteráveis como strings, arrays, entre outros</p>
+<p>
+  Com a chegada do ES6, ganhamos uma nova funcionalidade para iterar arrays e
+  objetos. Objetos iteráveis são objetos ou uma estrutura de dados que permite
+  acessar o seu conteúdo com um for. O for/of nos permite criar loops em objetos
+  iteráveis como strings, arrays, entre outros
+</p>
