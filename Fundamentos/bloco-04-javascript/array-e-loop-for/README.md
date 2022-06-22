@@ -42,3 +42,14 @@
     <br>
     
 </p>
+
+<p>
+arrays sao demontrados -> let variavel = ["valor", "outro valor"] <br>
+para saber o tamanho do array -> variavel.lenght <br>
+para adicionar ao final do array um valor -> variavel.push()<br>
+para adicionar ao inicio do array um valor -> variavel.unshift()<br>
+para remover do final usamos -> variavel.pop()<br>
+para remover do inicio usamos -> vairavel.shift()<br>
+para descobrir o index de um valor -> let indexOfvariavel = variavel.indexOf('valor')
+
+</p>

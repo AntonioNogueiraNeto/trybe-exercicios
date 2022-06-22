@@ -56,3 +56,57 @@ console.log(pizzas[2]);
 for (let index = 0; index < pizzas.length; index ++){
     console.log(pizzas[index])
 }
+
+
+// Como vimos no vídeo acima, uma das grandes vantagens dos arrays é o armazenamento de várias informações em uma mesma estrutura. Veja o exemplo e pratique:
+
+let tasksList = ['Tomar café', 'Reunião', 'Brincar com o cachorro'];
+
+console.log(tasksList.length);
+// 3
+
+
+//Sempre que precisar armazenar várias informações, o Array é uma boa alternativa e será uma ferramenta muito útil. Observamos que por meio do .length, conseguimos ter acesso à quantidade de elementos contidos nele. Agora, como podemos acessar essas informações? Veja este exemplo:
+
+
+let searchForFirstTask = tasksList[0];
+console.log(searchForFirstTask);
+// Tomar café
+
+let searchForLastTask = tasksList[tasksList.length - 1];
+console.log(searchForLastTask);
+// Brincar com o cachorro
+
+
+//Como podemos observar, é possível acessar os arrays pelo seu índice. O fato curioso é que a primeira posição do array é representada pelo número 0. Desse modo, para acessarmos o último elemento da estrutura, devemos pegar a quantidade de seus elementos utilizando o .length e subtrair 1.
+//Vamos agora adicionar uma nova atividade para nossa lista de arrays. Veja e pratique com o exemplo a seguir:
+
+
+
+tasksList.push('Fazer exercícios da Trybe');  // adiciona mais uma tarefa
+console.log(tasksList);
+
+// ['Tomar café', 'Reunião', 'Brincar com o cachorro', 'Fazer exercícios da Trybe']
+
+
+
+//adicionando no inicio
+
+tasksList.unshift('comer pão')
+console.log(tasksList)
+
+
+//remover 
+
+let startingDay = ['eat', 'shower', 'work']
+console.log(startingDay.length) //tamanho
+console.log(startingDay[2]) //posicao
+startingDay.push('come home'); //adicionando ao final
+console.log(startingDay[startingDay.length - 1]); //mostrando a ultimaposicao
+startingDay.unshift('wake up'); //adicionando ao inicio
+console.log(startingDay[0]) //mostrando a primeira posicao
+startingDay.pop(); //remove a ultima posicao
+console.log(startingDay[startingDay.length -1]) // 
+startingDay.shift(); //remove a primeira posicao
+console.log(startingDay[0]);
+
