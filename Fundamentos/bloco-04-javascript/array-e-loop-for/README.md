@@ -53,3 +53,24 @@ para remover do inicio usamos -> vairavel.shift()<br>
 para descobrir o index de um valor -> let indexOfvariavel = variavel.indexOf('valor')
 
 </p>
+
+<hr>
+
+<h2>Loop For</h2>
+
+<p>
+  loop for são laços de repetição que executam um bloco de notas inúmeras vezes. <br>
+
+  como escrever uma estrutura de repetição; <br>
+  let array = ["valor", "outro valor", "mais um valor"] --- criacao de um array
+  for (let index = 0; index < array.lenght; index += 1){
+    console.log(array[index])
+  } <br>
+
+  utilizamos o +=1 sempre <br>
+
+</p>
+
+<h3>for/of</h3>
+
+<p>Com a chegada do ES6, ganhamos uma nova funcionalidade para iterar arrays e objetos. Objetos iteráveis são objetos ou uma estrutura de dados que permite acessar o seu conteúdo com um for. O for/of nos permite criar loops em objetos iteráveis como strings, arrays, entre outros</p>
