@@ -110,3 +110,10 @@ console.log(startingDay[startingDay.length -1]) //
 startingDay.shift(); //remove a primeira posicao
 console.log(startingDay[0]);
 
+
+
+/* ---------------------------------------------------------------- */
+
+let arrayNomes = ['MARCELO','CARLA','MARLENE', 'ADRIANA'];
+let arrayNumeros = [1, 23, 55, 9, 0, 11];
+let qualquerCoisa = [12, 'atanes', 6, true];
