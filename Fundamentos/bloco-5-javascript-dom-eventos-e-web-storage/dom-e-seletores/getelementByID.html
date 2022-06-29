@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+</head>
+<body>
+    <h2 id="page-title" class="titulo">Título</h2>
+    <p id="paragraph">Dê uma cor para este parágrafo!</p>
+    <h4 id="subtitle">Subtítulo</h4>
+    <p id="second-paragraph">Segundo parágrafo!</p>
+  </header>
+  <script>
+    const headTitle = document.getElementById("page-title").innerText = "Cara cade meu carro"
+    
+    
+
+    const paragraph = document.getElementById("paragraph");
+    paragraph.style.color = "red";
+
+    document.getElementById("second-paragraph").innerText = " Eu to aqui aprendendo sobre o doom e acho que vou conseguir mudar o segundo paragrafo recuperando a id secod-paragraph pelo document.getElementById().innerText"
+
+    const subititle = document.getElementById("subtitle");
+    subititle.style.color = "blue"
+    subititle.innerText = "Se fuder eu to conseguindo MESMO"
+    subititle.style.fontSize = "26px";
+
+    const titulo = document.getElementsByClassName("titulo")[0]
+    titulo.style.fontSize = "20px"
+    titulo.style.fontfamily = "monospace"
+    titulo.style.color ="green"
+    titulo.style.margin = "20px"
+    
+  </script>
+</body>
+</html>
